@@ -45,7 +45,7 @@ const Intro: FC = () => {
         transition={{ duration: 0.4, delay: 1.4 }}
         className="text-3xl text-center z-[1] overflow-hidden"
       >
-        {`I'm a frontend developer`}
+        {`I'm a student in software engineering`}
       </m.p>
 
       <m.a
