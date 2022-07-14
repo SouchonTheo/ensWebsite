@@ -24,4 +24,8 @@ const nextConfig = {
   },
 };
 
+// module.exports = {
+//   exportTrailingSlash: true,
+// };
+
 module.exports = withAnalyzer(nextConfig);
