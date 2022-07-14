@@ -20,8 +20,8 @@ const Who: FC = () => {
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          My name is Nguyen Anh Phong. I&apos;m a
-          {false ? ` ${new Date().getFullYear() - 2007} years old` : ""}{" "}
+          My name is Théo Souchon. I&apos;m a
+          {false ? ` ${new Date().getFullYear() - 2000} years old` : ""}{" "}
           frontend developer living in Hanoi, Vietnam. I started learning web
           development when I was 13. Since then, I have made a lot of projects,
           from basic HTML pages to complex projects like a React library. I hope
