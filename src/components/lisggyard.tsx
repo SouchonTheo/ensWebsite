@@ -31,6 +31,8 @@ const Lisggyard = () => {
     return (
       <PageSlideFade>
         <h1>In construction</h1>
+        <h1>https://github.com/Lisggyard-Ltd</h1>
+        <h1>https://www.lisggyard.com</h1>
       </PageSlideFade>
     );
 };
