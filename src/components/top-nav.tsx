@@ -27,19 +27,25 @@ import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { BsCheckCircle } from "react-icons/bs";
 import { MdTimeline } from "react-icons/md";
+import { BiGroup } from "react-icons/bi";
 import { BsBook } from "react-icons/bs";
+import { AiOutlineFileText } from "react-icons/ai";
 
 const webLinks = [
   { name: "About", path: "/about" },
   { name: "Resume", path: "/resume" },
+  { name: "Lisggyard", path: "/lisggyard" }
 ];
 
 const mobileLinks = [
   { name: "About", path: "/about" },
   { name: "Resume", path: "/resume" },
   { name: "Open Source", path: "/open-source" },
+  { name: "Lisggyard", path: "/lisggyard" },
+  { name: "Internship Report", path: "/internship_report" },
   { name: "Tech Stack", path: "/tech-stack" },
-  { name: "Developer Story", path: "/story-timeline" }
+  { name: "Developer Story", path: "/story-timeline" },
+  { name: "Association", path: "/association" }
   
 ];
 
@@ -184,6 +190,30 @@ export default function TopNav() {
                           color={useColorModeValue("blue.500", "blue.200")}
                         />
                         <Text>Achievements</Text>
+                      </HStack>
+                    </MenuItem>
+                  </Link>
+                  <Link as={RouterNavLink} to="/internship_report">
+                    <MenuItem>
+                      <HStack>
+                        <Icon
+                          as={AiOutlineFileText}
+                          size={18}
+                          color={useColorModeValue("blue.500", "blue.200")}
+                        />
+                        <Text>Internship Report</Text>
+                      </HStack>
+                    </MenuItem>
+                  </Link>
+                  <Link as={RouterNavLink} to="/association">
+                    <MenuItem>
+                      <HStack>
+                        <Icon
+                          as={BiGroup}
+                          size={18}
+                          color={useColorModeValue("blue.500", "blue.200")}
+                        />
+                        <Text>Association</Text>
                       </HStack>
                     </MenuItem>
                   </Link>
